@@ -234,7 +234,7 @@ def dft():
 
 def spectrogram():
     global fft
-    fft, f_req = feature.dft(region_y, 4000)
+    fft, f_req = feature.dft(region_y, fs)
     result_text = tk.Text(window, height=1, width=15)
     result_text.grid(row=11, column=1)
     result_text.insert(tk.END, "calculated")
