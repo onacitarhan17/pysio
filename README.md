@@ -1,4 +1,4 @@
-# PySio - Feature Extraction Toolbox
+# PySio - Feature Extraction Toolbox v1.0.0
 
 To run the script:
 
